@@ -25,6 +25,6 @@ class Review(models.Model):
         return str(self.car) + ' ' + self.title
 
     class Meta:
-        verbose_name = 'Отзыв'
-        verbose_name_plural = 'Отзывы'
+        verbose_name = 'Обзор'
+        verbose_name_plural = 'Обзоры'
 
